@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hook
+  - InventoryManager
+  - ItemUI
+  - Item
+  - fish
+  - Flock
+  - GameManager
+  - Activator
+  - buttons
+  - arrow
+  - castPoint
+  - flock
+  - hookParent
+  - caughtfish
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - PlanetObstacle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2748511727
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: arrow
+    uniqueID: 1303487521
+    locked: 0
+  - name: lifebar
+    uniqueID: 425625351
+    locked: 0

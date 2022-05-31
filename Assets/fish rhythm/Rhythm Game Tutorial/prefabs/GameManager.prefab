@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8930534210860006448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8930534210860006462}
+  - component: {fileID: 8930534210860006449}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8930534210860006462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930534210860006448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8930534210860006449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8930534210860006448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dca0f295a0004d4d8f3049f4875a6ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HB: {fileID: 0}
+  beatSpawn:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  arrows:
+  - {fileID: 3510465892170901137, guid: ee02bd5bdf32f5448a8e0db61f185e72, type: 3}
+  - {fileID: 3781352868987906520, guid: 4ff957ddd15b644458e04464448bde23, type: 3}
+  - {fileID: 7609102938294000114, guid: 02037eda0848c2841bdba2995a9f578c, type: 3}
+  - {fileID: 9196761172010164881, guid: feb0c13b6bbc24b4480307aa488b1c7c, type: 3}
+  noteHolder: {fileID: 0}
+  theMusic: {fileID: 0}
+  startPlaying: 0
+  bs: {fileID: 0}
+  currentScore: 300
+  scorePerNote: 10
+  scorePerGoodNote: 15
+  scorePerPerfectNote: 25
+  scorePerMissedNote: 0
+  currentMultiplier: 1
+  multiplierTracker: 0
+  multiplierThreshholds: 040000000800000010000000
+  scoreText: {fileID: 0}
+  multiText: {fileID: 0}
